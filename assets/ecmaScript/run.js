@@ -21,10 +21,11 @@ cumbersnake.run = {
                 cumbersnake.config.WORLD_WIDTH, 
                 cumbersnake.config.WORLD_HEIGHT);
         cumbersnake.run.game.input.addPointer();
+        cumbersnake.head.create();
     },
         
     update : function () {
-
+        
     },
 
     render : function () {

@@ -1,5 +1,8 @@
 var cumbersnake = {
     
+    translatePosition : function (arrayCoordinate) {
+        return arrayCoordinate === 0 ? arrayCoordinate*cumbersnake.config.SPRITE_SIZE;
+    }
 };
 
 // Defines Object.create if it doesn't exist.
