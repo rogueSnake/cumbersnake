@@ -9,9 +9,9 @@ cumbersnake.controls = {
         return this.currentDirection;
     },
     
-    checkKey : function (dir) {
-        if (cumbersnake.run.game.input.keyboard.isDown(Phaser.keyboard[dir.toUpperCase()])) {
-            this.setDirection(dir);
+    checkKey : function (direction) {
+        if (cumbersnake.run.game.input.keyboard.isDown(Phaser.Keyboard[direction.toUpperCase()])) {
+            this.setDirection(direction);
         }
     },
     

@@ -25,8 +25,9 @@ cumbersnake.run = {
     },
         
     update : function () {
-        //cumbersnake.internalClock.tick();
-        //cumbersnake.controls.getInput();
+        console.log("Updating.");
+        cumbersnake.internalClock.tick();
+        cumbersnake.controls.getInput();
        // cumbersnake.head.update(cumbersnake.head.control());
     },
 

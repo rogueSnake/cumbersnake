@@ -17,7 +17,7 @@ cumbersnake.internalClock = {
     
     tick : function () {
         this.time += 1;
-        this.ready = this.isNewturn();
+        this.ready = this.isNewTurn();
         this.resetTime();
     },
     
