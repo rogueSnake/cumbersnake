@@ -6,6 +6,9 @@ cumbersnake.head.create = function () {
     this.place('head');
 };
 
-cumbersnake.head.control = function () {
-    
+cumbersnake.head.translateKeys = function () {
+};
+
+cumbersnake.head.move = function () {
+    tempVar = cumbersnake.translatePosition(this.x, this.y);
 };

@@ -1,7 +1,7 @@
 var cumbersnake = {
     
     translatePosition : function (arrayCoordinate) {
-        return arrayCoordinate === 0 ? arrayCoordinate*cumbersnake.config.SPRITE_SIZE;
+        return arrayCoordinate*cumbersnake.config.SPRITE_SIZE;
     }
 };
 

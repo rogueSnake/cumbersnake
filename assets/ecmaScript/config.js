@@ -1,4 +1,6 @@
 cumbersnake.config = {
+    TURN_LENGTH : 20,
+    
     SPRITE_SIZE : 32,
     
     MAP_WIDTH : 10,

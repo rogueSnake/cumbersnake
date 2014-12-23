@@ -3,6 +3,7 @@ cumbersnake.segment = {
     
     x : 0,
     y : 0,
+    direction : 'up',
     sprite : {},
     isDead : false,
     
@@ -17,5 +18,11 @@ cumbersnake.segment = {
     
     checkDeath : function () {
         return this.isDead === true;
+    },
+    
+    update : function (updateFunction) {
+        if (cumbersnake.internalClock.checkReady()){
+           return updateFunction;
+        }
     }
 };
